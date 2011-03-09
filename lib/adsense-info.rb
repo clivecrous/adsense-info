@@ -7,10 +7,10 @@ module Adsense
     def initialize( username, password )
       @username = username
       @password = password
-      @agent = Mechanize::Mechanize.new
     end
 
     def login!
+      @agent = Mechanize::Mechanize.new
       page = @agent.get 'http://www.gmail.com'
       form = page.forms.first
       form.Email = @username
