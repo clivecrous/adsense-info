@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["clive@crous.co.za"]
   s.homepage    = "http://www.darkarts.co.za/adsense-info"
   s.summary     = %q{Retrieve adsense income totals}
-  s.description = %q{Retrieve income from your adsense account}
+  s.description = %q{Retrieve live income totals from your adsense account for display or use within applications and websites}
 
   s.add_dependency "mechanize"
   s.add_dependency "hpricot"
